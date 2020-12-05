@@ -123,7 +123,8 @@ public class Day04b
 
         return true;
     }
-
+    
+    @SuppressWarnings("unused")
     private static void print(Map<String, String> passport) {
         String[] FIELDS = new String[] {"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid"};
         
